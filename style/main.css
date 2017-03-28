@@ -1,3 +1,54 @@
-nav {
-  background-color: grey;
+body{
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+header {
+    background-color: rgb(235, 235, 235);
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(210,210,210);
+}
+nav{
+  position: absolute;
+  right: 50px;
+  top: 10px;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav ul li {
+    display: inline-block;
+}
+h4{
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0;
+  margin: 0;
+}
+.search{
+  position: relative;
+  top: 60px;
+  margin-left: 30px;
+}
+.search label{
+  display: block;
+}
+.search .input{
+  border-radius: 5px;
+  width: 400px;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid #DDD;
+  vertical-align: middle;
+}
+.search .img {
+  width: 30px;
+  height: 30px;
 }
