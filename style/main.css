@@ -3,6 +3,11 @@ body{
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
+/* ----
+ *
+ * HEADER
+ *
+ ----*/
 header {
     background-color: rgb(235, 235, 235);
     position: fixed;
@@ -10,7 +15,7 @@ header {
     padding: 10px;
     border: 1px solid rgb(210,210,210);
 }
-nav{
+.header-nav{
   position: absolute;
   right: 50px;
   top: 10px;
@@ -18,12 +23,12 @@ nav{
   padding: 0;
   margin: 0;
 }
-nav ul {
+.header-nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-nav ul li {
+.header-nav ul li {
     display: inline-block;
 }
 h4{
@@ -32,10 +37,16 @@ h4{
   padding: 0;
   margin: 0;
 }
+/* ----
+ *
+ * SEARCH
+ *
+ ----*/
 .search{
   position: relative;
   top: 60px;
   margin-left: 30px;
+  margin-bottom: 100px;
 }
 .search label{
   display: block;
@@ -51,4 +62,40 @@ h4{
 .search .img {
   width: 30px;
   height: 30px;
+}
+/* ----
+ *
+ * Page Nav
+ *
+ ----*/
+
+.page-nav{
+  position: relative;
+  margin-left: 30px;
+  font-size: 0;
+}
+.page-nav nav ul{
+  position: absolute;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+.page-nav nav ul li{
+  font-size: 16px;
+  display: inline-block;
+  border: 1px solid #CCC;
+  padding: 10px 15px 10px 15px;
+  margin: 0;
+}
+.first{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.second{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.last{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
